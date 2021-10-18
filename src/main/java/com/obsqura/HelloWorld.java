@@ -2,6 +2,10 @@ package com.obsqura;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("HEllo World");
+        System.out.println("Hello World");
+        for (int i = 0; i < 5; i++){
+            System.out.println(i);
+        }
+
     }
 }
